@@ -7,4 +7,4 @@ when app is opened it fetches data from api and displays on UI, also it stores d
 <img src=" HelloHomeoImages/image3.jpeg" width = "250">
 <img src=" HelloHomeoImages/image4.jpeg" width = "250">
 <img src=" HelloHomeoImages/image5.jpeg" width = "250">
-<img src=" HelloHomeoImages/image6.jpeg" width = "250">
+
