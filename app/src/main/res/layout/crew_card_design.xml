@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/TaskCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/topText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_card_design"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/crewNameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="120"
+                    android:fontFamily="@font/reggae_one_regular"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="India"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/crewImage"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/nointernet" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amita_bold"
+                        android:padding="10dp"
+                        android:text="@string/agency"
+                        android:textColor="#00AC61"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/agencyText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="10dp"
+                        android:text="agency name"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amita_bold"
+                        android:padding="10dp"
+                        android:text="@string/status"
+                        android:textColor="#00AC61"
+                        android:textSize="12sp" />
+
+                    <TextView
+
+                        android:id="@+id/statusText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="10dp"
+                        android:text="Status"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amita_bold"
+                android:padding="10dp"
+                android:text="@string/wikiLink"
+                android:textColor="#00AC61"
+                android:textSize="12sp" />
+
+            <TextView
+
+                android:id="@+id/wikiLinkTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:padding="10dp"
+                android:text="Status"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

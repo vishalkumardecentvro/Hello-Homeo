@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloHomeo</string>
+    <string name="agency">Agency</string>
+    <string name="status">Status</string>
+    <string name="wikiLink">Wikipedia Link</string>
+    <string name="delete">Delete offline data</string>
+    <string name="offlineMsg">Referesh</string>
+    <string name="loadData">Surf offline</string>
+    <string name="confirmationText">Pressing OKAY will delete all data from room database</string>
+    <string name="dialogButton">OKAY</string>
+</resources>
